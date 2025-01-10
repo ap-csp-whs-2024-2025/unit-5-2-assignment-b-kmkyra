@@ -8,7 +8,22 @@ void displayList(std::vector<T> const &v);
 int main()
 {
     // You can follow along with any code in class here
-
+    //get every element loop: while loop
+    std::vector<int> numbers = {8,6,7,5,3,0,9};
+    int curr_index = 0;
+    
+    while (curr_index < numbers.size())
+    {
+        st::cout<<numbers[curr_index]<< " ";
+        curr_index = curr_index + 1;
+    }
+    //for loop
+    std::vector<int> numbers = {8,6,7,5,3,0,9};
+    
+    for (int curr_index = 0; curr_index < numbers.size(); curr_index = curr_index+1)
+    {
+        
+    }
     
     return 0;
 }
